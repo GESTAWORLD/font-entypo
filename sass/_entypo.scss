@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "entypo";
-  src:url("../fonts/entypo/entypo.eot");
-  src:url("../fonts/entypo/entypo.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/entypo/entypo.woff") format("woff"),
-    url("../fonts/entypo/entypo.ttf") format("truetype"),
-    url("../fonts/entypo/entypo.svg#entypo") format("svg");
+  src:url($path_entypo + "fonts/entypo/entypo.eot");
+  src:url($path_entypo + "fonts/entypo/entypo.eot?#iefix") format("embedded-opentype"),
+    url($path_entypo + "fonts/entypo/entypo.woff") format("woff"),
+    url($path_entypo + "fonts/entypo/entypo.ttf") format("truetype"),
+    url($path_entypo + "fonts/entypo/entypo.svg#entypo") format("svg");
   font-weight: normal;
   font-style: normal;
 
